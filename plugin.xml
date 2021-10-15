@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
     <label lang="de">Nutzerinfos auf der Detailseite</label>
     <label lang="en">Userinfo on detailpage</label>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <copyright>(c) by Alexander Froehling</copyright>
     <license>MIT</license>
     <link>mailto:alexander.froehling@googlemail.com</link>
@@ -14,5 +14,10 @@
     <changelog version="1.0.0">
         <changes lang="de">Erste Veröffentlichung</changes>
         <changes lang="en">Initial Release</changes>
+    </changelog>
+
+    <changelog version="1.1.0">
+        <changes lang="de">Fix vom Subscriber + script im Footer nach Jquery</changes>
+        <changes lang="en">fixed subscriber, added script in footer after jquery is loaded</changes>
     </changelog>
 </plugin>
