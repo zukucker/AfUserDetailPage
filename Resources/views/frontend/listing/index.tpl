@@ -5,7 +5,7 @@
 <script>
 window.addEventListener('load', () =>{
   $.ajax({
-      url: "/getuser",
+      url: "/staging/getuser",
       type: "GET",
       dataType:'json',
   })
